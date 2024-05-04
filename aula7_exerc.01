@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void){
+int numero, maior = 0;
+while( numero != 0)
+{
+  printf("\nDigite um número ou Zero para sair:");
+  scanf("%i",&numero);
+  if(numero > maior)
+  {
+    maior = numero;
+  }  
+}
+printf("\nO maior número digitado foi: %i", maior);
+return 0;
+} 
